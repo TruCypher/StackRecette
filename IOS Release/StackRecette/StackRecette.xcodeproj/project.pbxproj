@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		184B6C93888B1ECC9C736ACC /* Pods_StackRecetteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E3FD56EAE9929CC6790A562 /* Pods_StackRecetteUITests.framework */; };
+		84015BAB227535A300C5CE00 /* ingredientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84015BAA227535A200C5CE00 /* ingredientViewController.swift */; };
+		84015BAD2275371000C5CE00 /* ingreTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84015BAC2275371000C5CE00 /* ingreTable.swift */; };
 		85070070B2F06667F43A9AF8 /* Pods_StackRecette.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13EFFA6159E1D11452631144 /* Pods_StackRecette.framework */; };
 		9316C5CB2270F5C300C5E426 /* StackRecetteLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9316C5CA2270F5C300C5E426 /* StackRecetteLogo.png */; };
 		9316C5CD2271079C00C5E426 /* HttpQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316C5CC2271079C00C5E426 /* HttpQuery.swift */; };
@@ -19,7 +21,6 @@
 		939039D12270DBA9003FA014 /* StackRecetteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939039D02270DBA9003FA014 /* StackRecetteTests.swift */; };
 		939039DC2270DBA9003FA014 /* StackRecetteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939039DB2270DBA9003FA014 /* StackRecetteUITests.swift */; };
 		939039EB2270DF5E003FA014 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939039EA2270DF5E003FA014 /* SignInViewController.swift */; };
-		939039ED2270E29C003FA014 /* UISearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939039EC2270E29C003FA014 /* UISearch.swift */; };
 		939039EF2270E2CE003FA014 /* food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939039EE2270E2CE003FA014 /* food.swift */; };
 		939039F12270E2EB003FA014 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939039F02270E2EB003FA014 /* TableCell.swift */; };
 		D543B463E53BBB41AF195507 /* Pods_StackRecetteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BA2DCC0FC606235E837852 /* Pods_StackRecetteTests.framework */; };
@@ -48,6 +49,8 @@
 		46BDE7061784158D1F261C70 /* Pods-StackRecetteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackRecetteUITests.release.xcconfig"; path = "Target Support Files/Pods-StackRecetteUITests/Pods-StackRecetteUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6FAB19EC6B6E0FECD6048FB4 /* Pods-StackRecette.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackRecette.release.xcconfig"; path = "Target Support Files/Pods-StackRecette/Pods-StackRecette.release.xcconfig"; sourceTree = "<group>"; };
 		7E3FD56EAE9929CC6790A562 /* Pods_StackRecetteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StackRecetteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84015BAA227535A200C5CE00 /* ingredientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ingredientViewController.swift; sourceTree = "<group>"; };
+		84015BAC2275371000C5CE00 /* ingreTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ingreTable.swift; sourceTree = "<group>"; };
 		9316C5CA2270F5C300C5E426 /* StackRecetteLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StackRecetteLogo.png; sourceTree = "<group>"; };
 		9316C5CC2271079C00C5E426 /* HttpQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpQuery.swift; sourceTree = "<group>"; };
 		939039B82270DBA4003FA014 /* StackRecette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackRecette.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,7 +67,6 @@
 		939039DB2270DBA9003FA014 /* StackRecetteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackRecetteUITests.swift; sourceTree = "<group>"; };
 		939039DD2270DBA9003FA014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		939039EA2270DF5E003FA014 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
-		939039EC2270E29C003FA014 /* UISearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISearch.swift; sourceTree = "<group>"; };
 		939039EE2270E2CE003FA014 /* food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = food.swift; sourceTree = "<group>"; };
 		939039F02270E2EB003FA014 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 		AC876B5DEB2630279CC95D7E /* Pods-StackRecetteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackRecetteTests.debug.xcconfig"; path = "Target Support Files/Pods-StackRecetteTests/Pods-StackRecetteTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -139,15 +141,16 @@
 				939039E92270DF0E003FA014 /* Images */,
 				939039BB2270DBA4003FA014 /* AppDelegate.swift */,
 				939039BD2270DBA4003FA014 /* ViewController.swift */,
-				939039EC2270E29C003FA014 /* UISearch.swift */,
-				939039EE2270E2CE003FA014 /* food.swift */,
 				939039F02270E2EB003FA014 /* TableCell.swift */,
+				939039EE2270E2CE003FA014 /* food.swift */,
 				939039BF2270DBA4003FA014 /* Main.storyboard */,
 				9316C5CC2271079C00C5E426 /* HttpQuery.swift */,
 				939039C22270DBA8003FA014 /* Assets.xcassets */,
 				939039C42270DBA8003FA014 /* LaunchScreen.storyboard */,
 				939039C72270DBA8003FA014 /* Info.plist */,
 				939039EA2270DF5E003FA014 /* SignInViewController.swift */,
+				84015BAA227535A200C5CE00 /* ingredientViewController.swift */,
+				84015BAC2275371000C5CE00 /* ingreTable.swift */,
 			);
 			path = StackRecette;
 			sourceTree = "<group>";
@@ -491,10 +494,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84015BAD2275371000C5CE00 /* ingreTable.swift in Sources */,
 				939039F12270E2EB003FA014 /* TableCell.swift in Sources */,
+				84015BAB227535A300C5CE00 /* ingredientViewController.swift in Sources */,
 				939039BE2270DBA4003FA014 /* ViewController.swift in Sources */,
 				9316C5CD2271079C00C5E426 /* HttpQuery.swift in Sources */,
-				939039ED2270E29C003FA014 /* UISearch.swift in Sources */,
 				939039BC2270DBA4003FA014 /* AppDelegate.swift in Sources */,
 				939039EB2270DF5E003FA014 /* SignInViewController.swift in Sources */,
 				939039EF2270E2CE003FA014 /* food.swift in Sources */,

@@ -41,6 +41,13 @@ class ViewController: UIViewController, GIDSignInUIDelegate, UITableViewDelegate
         // Do any additional setup after loading the view, typically from a nib.
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vs = storyboard?.instantiateViewController(withIdentifier: "ingredientViewController") as? ingredientViewController
+        vs?.ingre = foodArr[indexPath.row].ingre
+        self.navigationController?.pushViewController(vs!, animated: true)
+    }
+    
+    
     //Handle signout
     @IBAction func didTapSignOut(_ sender: AnyObject) {
         GIDSignIn.sharedInstance()?.signOut()
@@ -83,7 +90,7 @@ class ViewController: UIViewController, GIDSignInUIDelegate, UITableViewDelegate
                 if let data = data {
                     self.foodArr.removeAll()
                     for i in data {
-                        self.foodArr.append(food(food_name: i.title, img:i.thumbnail))
+                        self.foodArr.append(food(food_name: i.title, img:i.thumbnail, ingre: i.ing))
                     }
                 }
             }

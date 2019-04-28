@@ -11,10 +11,12 @@ import UIKit
 class food {
     let food_name: String
     let img: String
+    let ingre: String
     
-    init(food_name: String, img: String)
+    init(food_name: String, img: String, ingre: String)
     {
         self.food_name = food_name
         self.img = img
+        self.ingre = ingre
     }
 }
